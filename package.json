@@ -1,0 +1,30 @@
+{
+  "name": "node-pdf-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "moment": "^2.29.1",
+    "node-fetch": "^3.1.0",
+    "pdf-creator-node": "^1.4.1",
+    "react-scripts": "^4.0.3",
+    "time-stamp": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
